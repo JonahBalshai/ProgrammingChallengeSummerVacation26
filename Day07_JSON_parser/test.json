@@ -1,0 +1,10 @@
+{
+  "_readme": [
+    "Test corpus for a hand-written JSON parser (Day 07, Aug 12).",
+    "Load this file with json.load, then drive your own parser with it.",
+    "valid: your parser must accept these and produce the same value as json.loads.",
+    "invalid: your parser must raise on every one of these. Silent acceptance is the bug to hunt.",
+    "python_quirks: CPython's json module accepts these as documented extensions; RFC 8259 does not. Pick a side on purpose.",
+    "Every case here was checked against CPython 3.12's json module when this file was generated\\."
+  ]
+}
